@@ -1,0 +1,15 @@
+:root {
+  --foreground-rgb: 6, 6, 5;
+  --background-grey-rgb: 245, 245, 245;
+  --background-white-rgb: 255, 255, 255;
+  --primary-rgb: 252, 198, 0;
+  --max-width: 480px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-grey-rgb: 0, 0, 0;
+    --background-white-rgb: 0, 0, 0;
+  }
+}
