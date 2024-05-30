@@ -19,5 +19,5 @@ export async function generateMetadata({
 }
 
 export default function Page({ params: { lang } }: IPageProps) {
-  return <Index      lang={lang} />;
+  return <Index       lang={lang} />;
 }
