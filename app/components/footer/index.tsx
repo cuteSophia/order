@@ -27,7 +27,8 @@ export const Footer = ({ lang }: FooterProps) => {
             <span key={l}>
               {index > 0 && " or "}
               <Link 
-              href={`/${l}/dashboard`}>{l}</Link>
+              href={`/${l}/dashboard`}>{l}
+              </Link>
             </span>
           );
         })}
