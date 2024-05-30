@@ -1,3 +1,3 @@
 export default function Page() {
-  return <h1>Order</h1>;
+  return <h1>Order Detail</h1>;
 }

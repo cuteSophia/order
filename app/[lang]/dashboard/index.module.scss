@@ -1,9 +1,13 @@
-.xx {
-  color: rgb(var(--primary-rgb));
-  border: 1px solid blueviolet;
+.page {
+  .banner {
+    width: 100%;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    overflow: hidden;
+    opacity: 0.8;
+  }
 
-  .a {
-    color: blue;
-    font-size: 2rem;
+  .order-card-wrap {
+    padding: 18px 16px;
   }
 }

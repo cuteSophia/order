@@ -1,3 +1,3 @@
 export default function Page() {
-  return <div>Cart</div>;
+  return <h1>Confirm Order</h1>;
 }

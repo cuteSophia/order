@@ -1,15 +1,16 @@
 :root {
+  /* 前景色：文字颜色 */
   --foreground-rgb: 6, 6, 5;
+  /* 淡灰色背景 */
   --background-grey-rgb: 245, 245, 245;
+  /* 白色背景 */
   --background-white-rgb: 255, 255, 255;
+  /* 渐变背景色 */
+  --background-gradient-rgba: 255, 184, 61, 0.5;
+  /* 主题色 */
   --primary-rgb: 252, 198, 0;
+  /* 屏幕最大宽度 */
   --max-width: 480px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-grey-rgb: 0, 0, 0;
-    --background-white-rgb: 0, 0, 0;
-  }
+  /* 根单位基准 1rem = 16px */
+  --font-size: 16px;
 }

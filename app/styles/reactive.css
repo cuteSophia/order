@@ -1,0 +1,43 @@
+/* 适配各类机型 */
+
+@media screen and (max-width: 280px) {
+  :root {
+    --font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 281px) and (max-width: 343px) {
+  :root {
+    --font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 344px) and (max-width: 359px) {
+  :root {
+    --font-size: 14.677px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+  :root {
+    --font-size: 15.36px;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 429px) {
+  :root {
+    --font-size: 17.664px;
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 479px) {
+  :root {
+    --font-size: 18.346px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  :root {
+    --font-size: 20.48px;
+  }
+}

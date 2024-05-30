@@ -1,2 +1,1 @@
-export { Footer } from "./footer";
-export type { FooterProps } from "./footer";
+export { OrderCard } from "./order-card";

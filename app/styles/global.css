@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import "./theme.css";
+@import "./reactive.css";
 
 html,
 body,
@@ -184,18 +185,31 @@ a:-webkit-any-link {
 html,
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-grey-rgb));
-  font-family: PingFangSC-Regular, PingFang SC;
+  background: linear-gradient(
+      to top,
+      transparent 50%,
+      rgba(var(--background-gradient-rgba))
+    )
+    rgb(var(--background-white-rgb));
+  font-family:
+    PingFangSC-Regular,
+    PingFang SC;
   line-height: 1;
   -webkit-overflow-scrolling: touch;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  font-size: var(--font-size);
+}
+
 #root {
   width: 100%;
   max-width: var(--max-width);
+  min-height: 100vh;
   margin: auto;
+  background: rgb(var(--background-grey-rgb));
 }
 
 @layer utilities {
