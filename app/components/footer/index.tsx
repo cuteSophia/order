@@ -13,6 +13,7 @@ export type FooterProps = {
 export const Footer = ({ lang }: FooterProps) => {
   const { t } = useTranslation(lang);
   console.log({ lang });
+
   const router = useRouter();
 
   return (
@@ -25,7 +26,8 @@ export const Footer = ({ lang }: FooterProps) => {
           return (
             <span key={l}>
               {index > 0 && " or "}
-              <Link href={`/${l}/dashboard`}>{l}</Link>
+              <Link 
+              href={`/${l}/dashboard`}>{l}</Link>
             </span>
           );
         })}
