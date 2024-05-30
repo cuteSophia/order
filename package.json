@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "prepare": "husky install",
+    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,json,md,css,scss}\"",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "prepare": "husky install",
-    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,json}\""
+    "lint": "next lint"
   },
   "dependencies": {
     "accept-language": "^3.0.18",
@@ -41,7 +41,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,md}": [
+    "*.{js,jsx,ts,tsx,json,md,css,scss}": [
       "prettier --write"
     ]
   }
