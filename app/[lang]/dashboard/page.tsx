@@ -11,7 +11,7 @@ export async function generateMetadata({
   params: { lang },
 }: IPageProps): Promise<Metadata> {
   // eslint-disable-next-line
-  const { t } = await useTranslation(lang);
+  const { t } = await  useTranslation(lang);
 
   return {
     title: t("tamjai"),
@@ -19,5 +19,5 @@ export async function generateMetadata({
 }
 
 export default function Page({ params: { lang } }: IPageProps) {
-  return <Index lang={lang} />;
+  return <Index     lang={lang} />;
 }
