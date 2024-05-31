@@ -1,5 +1,5 @@
 export const fallbackLang = "en-US";
-export const languages = [fallbackLang]; // 暂时只有英文版  "ja-JP", "zh-TW"
+export const languages = [fallbackLang];
 export const langCookieName = "lang";
 export const defaultNS = "";
 

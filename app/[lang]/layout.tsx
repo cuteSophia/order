@@ -24,9 +24,15 @@ export default function RootLayout({
   params: { lang: Lang };
 }>) {
   return (
-    <html lang={lang} dir={dir(lang)}>
-      <body className={inter.className}>
-        <div id="root">{children}</div>
+    <html
+      lang={lang}
+      dir={dir(lang)}
+      className="text-[16px] 2xs:text-[17.5px] xs:text-[20.48px]"
+    >
+      <body className={`${inter.className} text-black-primary font-sans`}>
+        <div className="w-full max-w-screen-xs min-h-screen m-auto bg-neutral-100">
+          {children}
+        </div>
       </body>
     </html>
   );
